@@ -44,4 +44,5 @@
 ## Contributors
 
 * [Md Hishaam Akhtar](https://github.com/mdhishaamakhtar)
+* [Yuvraj Singh Pathania](https://github.com/batman004)
 
