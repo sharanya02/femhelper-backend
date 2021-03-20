@@ -1,5 +1,5 @@
 <p align="center">
-	<h2 align="center"> femhelper </h2>
+	<h2 align="center"> FemHelper </h2>
 	<h4 align="center"> An application with primary objective to find help during periods by sending alert notiion to nearby women and also features such as to track menstrual cycle <h4>
 </p>
 
