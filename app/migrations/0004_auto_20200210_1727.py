@@ -7,22 +7,27 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('app', '0003_auto_20200209_1510'),
+        ("app", "0003_auto_20200209_1510"),
     ]
 
     operations = [
         migrations.AlterModelOptions(
-            name='chatroom',
-            options={'ordering': ['-last_message_time']},
+            name="chatroom",
+            options={"ordering": ["-last_message_time"]},
         ),
         migrations.AlterModelOptions(
-            name='messages',
-            options={'ordering': ['-date_time_creation']},
+            name="messages",
+            options={"ordering": ["-date_time_creation"]},
         ),
         migrations.AddField(
-            model_name='messages',
-            name='chat_room_id',
-            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, related_name='chat_room_id', to='app.ChatRoom'),
+            model_name="messages",
+            name="chat_room_id",
+            field=models.ForeignKey(
+                default=1,
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="chat_room_id",
+                to="app.ChatRoom",
+            ),
             preserve_default=False,
         ),
     ]

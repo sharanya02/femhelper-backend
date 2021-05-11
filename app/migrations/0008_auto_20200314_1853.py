@@ -10,20 +10,25 @@ from django.utils.timezone import utc
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('app', '0007_auto_20200217_2242'),
+        ("app", "0007_auto_20200217_2242"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='chatroom',
-            name='last_message_body',
-            field=models.TextField(default='message'),
+            model_name="chatroom",
+            name="last_message_body",
+            field=models.TextField(default="message"),
             preserve_default=False,
         ),
         migrations.AddField(
-            model_name='chatroom',
-            name='last_message_sender',
-            field=models.ForeignKey(default=34, on_delete=django.db.models.deletion.CASCADE, related_name='last_message_sender', to=settings.AUTH_USER_MODEL),
+            model_name="chatroom",
+            name="last_message_sender",
+            field=models.ForeignKey(
+                default=34,
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="last_message_sender",
+                to=settings.AUTH_USER_MODEL,
+            ),
             preserve_default=False,
         ),
     ]
