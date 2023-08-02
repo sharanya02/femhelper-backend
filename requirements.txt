@@ -48,7 +48,7 @@ sqlparse==0.3.0
 Twisted==19.10.0
 txaio==20.1.1
 urllib3==1.25.8
-uvicorn==0.11.3
+uvicorn==0.12.3
 websockets==8.1
 whitenoise==5.0.1
 zope.interface==4.7.1
