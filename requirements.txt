@@ -41,7 +41,7 @@ PyJWT==1.7.1
 pyOpenSSL==19.1.0
 python-dotenv==0.11.0
 pytz==2019.3
-requests==2.22.0
+requests==2.32.0
 service-identity==18.1.0
 six==1.14.0
 sqlparse==0.3.0
